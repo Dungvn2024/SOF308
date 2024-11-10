@@ -1,0 +1,17 @@
+h3 {
+    color: #e94e1b; /* Title color */
+}
+
+.table th {
+    background-color: #ffc107;
+    color: #000;
+}
+
+.table td, .table th {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.table td {
+    font-weight: 500;
+}
