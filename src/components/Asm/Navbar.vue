@@ -11,7 +11,7 @@
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="/public/index.html"><i class="fa-solid fa-list"></i> Bài viết</a>
+                        <a class="nav-link" href="#"><i class="fa-solid fa-list"></i> Bài viết</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#"><i class="fa-solid fa-film"></i> Video</a>
@@ -27,9 +27,9 @@
                             <i class="fa-solid fa-user"></i> Tài khoản
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="/src/components/Lab1/Dangnhap.vue">Đăng nhập</a></li>
-                            <li><a class="dropdown-item" href="/src/components/Lab1/QuenMK.vue">Quên mật khẩu</a></li>
-                            <li><a class="dropdown-item" href="/src/components/Lab1/DangKy.vue">Đăng ký thành viên</a></li>
+                            <li><a class="dropdown-item" href="Dangnhap.vue">Đăng nhập</a></li>
+                            <li><a class="dropdown-item" href="QuenMK.vue">Quên mật khẩu</a></li>
+                            <li><a class="dropdown-item" href="DangKy.vue">Đăng ký thành viên</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -48,7 +48,7 @@
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="./images/banner1.jpg" class="d-block w-100" alt="Carousel Image">
+            <img src="./images/banner2.jpg" class="d-block w-100" alt="Carousel Image">
         </div>
     </div>
 </div>

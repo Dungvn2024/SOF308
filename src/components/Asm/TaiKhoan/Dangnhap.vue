@@ -1,6 +1,4 @@
 <template>
-    <div class="container mt-5">
-        <div class="row">
     <!-- Login Form -->
     <div class="col-md-6">
             <div class="card p-4">
@@ -18,8 +16,6 @@
                 </form>
             </div>
         </div>
-    </div>
-</div>
     </template>
     
     <script>
@@ -29,7 +25,8 @@
     </script>
     
     <style>
-    .card {
+    /* Styling for cards */
+.card {
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }

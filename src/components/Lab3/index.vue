@@ -18,19 +18,19 @@
                         <ul class="list-group">
                             <li>
                           <a href="#" class="list-group-item list-group-item-action d-flex align-items-center">
-                            <img src="../../../Lab3 - Ta__i Nguye__n/Lab3 - Ta╠Çi Nguye╠én/images/corevalue.jpg" class="img-thumbnail me-3" style="width: 50px; height: 50px;" alt="Image 1">
+                            <img src="./images/corevalue.jpg" class="img-thumbnail me-3" style="width: 50px; height: 50px;" alt="Image 1">
                             Biết ơn đời, đời sẽ thương ta
                         </a>
                       </li>
                         <li>
                           <a href="#" class="list-group-item list-group-item-action d-flex align-items-center">
-                            <img src="../../../Lab3 - Ta__i Nguye__n/Lab3 - Ta╠Çi Nguye╠én/images/sesameoil_300x300.jpg" class="img-thumbnail me-3" style="width: 50px; height: 50px;" alt="Image 1">
+                            <img src="./images/sesameoil_300x300.jpg" class="img-thumbnail me-3" style="width: 50px; height: 50px;" alt="Image 1">
                             10 công dụng của dầu dừa
                         </a>
                       </li>
                         <li>
                         <a href="#" class="list-group-item list-group-item-action d-flex align-items-center">
-                          <img src="../../../Lab3 - Ta__i Nguye__n/Lab3 - Ta╠Çi Nguye╠én/images/spinach_300x300.jpg" class="img-thumbnail me-3" style="width: 50px; height: 50px;" alt="Image 1">
+                          <img src="./images/spinach_300x300.jpg" class="img-thumbnail me-3" style="width: 50px; height: 50px;" alt="Image 1">
                           Lợi ích khi ăn rau mỗi ngày
                       </a>
                     </li>
@@ -41,19 +41,19 @@
                         <ul class="list-group">
                             <li>
                           <a href="#" class="list-group-item list-group-item-action d-flex align-items-center">
-                            <img src="../../../Lab3 - Ta__i Nguye__n/Lab3 - Ta╠Çi Nguye╠én/images/corevalue.jpg" class="img-thumbnail me-3" style="width: 50px; height: 50px;" alt="Image 1">
+                            <img src="./images/corevalue.jpg" class="img-thumbnail me-3" style="width: 50px; height: 50px;" alt="Image 1">
                             Biết ơn đời, đời sẽ thương ta
                         </a>
                       </li>
                         <li>
                           <a href="#" class="list-group-item list-group-item-action d-flex align-items-center">
-                            <img src="../../../Lab3 - Ta__i Nguye__n/Lab3 - Ta╠Çi Nguye╠én/images/sesameoil_300x300.jpg" class="img-thumbnail me-3" style="width: 50px; height: 50px;" alt="Image 1">
+                            <img src="./images/sesameoil_300x300.jpg" class="img-thumbnail me-3" style="width: 50px; height: 50px;" alt="Image 1">
                             10 công dụng của dầu dừa
                         </a>
                       </li>
                         <li>
                         <a href="#" class="list-group-item list-group-item-action d-flex align-items-center">
-                          <img src="../../../Lab3 - Ta__i Nguye__n/Lab3 - Ta╠Çi Nguye╠én/images/spinach_300x300.jpg" class="img-thumbnail me-3" style="width: 50px; height: 50px;" alt="Image 1">
+                          <img src="./images/spinach_300x300.jpg" class="img-thumbnail me-3" style="width: 50px; height: 50px;" alt="Image 1">
                           Lợi ích khi ăn rau mỗi ngày
                       </a>
                     </li>
@@ -69,7 +69,7 @@
                     <!-- Video Item 1 -->
                     <div class="col">
 <div class="card h-100">
-<img src="../../../Lab3 - Ta__i Nguye__n/Lab3 - Ta╠Çi Nguye╠én/images/video1.jpg" class="card-img-top" alt="Video 1">
+<img src="./images/video1.jpg" class="card-img-top" alt="Video 1">
 <div class="card-body">
 <h5 class="card-title">Đi xa hơn trong thành công</h5>
 <p class="card-text">Description of the video content.</p>
@@ -79,7 +79,7 @@
 <!-- Video Item 2 -->
 <div class="col">
 <div class="card h-100">
-<img src="../../../Lab3 - Ta__i Nguye__n/Lab3 - Ta╠Çi Nguye╠én/images/video2.jpg" class="card-img-top" alt="Video 2">
+<img src="./images/video2.jpg" class="card-img-top" alt="Video 2">
 <div class="card-body">
 <h5 class="card-title">Chat với những ngày cuối năm</h5>
 <p class="card-text">Description of the video content.</p>
@@ -89,7 +89,7 @@
 
 <div class="col">
 <div class="card h-100">
-  <img src="../../../Lab3 - Ta__i Nguye__n/Lab3 - Ta╠Çi Nguye╠én/images/video3.jpg" class="card-img-top" alt="Video 2">
+  <img src="./images/video3.jpg" class="card-img-top" alt="Video 2">
   <div class="card-body">
       <h5 class="card-title">Ước gì được trở về tuổi thơ</h5>
       <p class="card-text">Tuổi trẻ chỉ nghĩ đến những chuyến đi, đời mong một ngày được bay nhảy trên những phương trời mới lạ. Để rồi những cô đơn và mệt mỏi, tuổi trẻ ấy mới dừng muốn một nơi để trở về.</p>
@@ -99,7 +99,7 @@
 
 <div class="col">
 <div class="card h-100">
-<img src="../../../Lab3 - Ta__i Nguye__n/Lab3 - Ta╠Çi Nguye╠én/images/video4.jpg" class="card-img-top" alt="Video 2">
+<img src="./images/video4.jpg" class="card-img-top" alt="Video 2">
 <div class="card-body">
     <h5 class="card-title">Ba người thầy vĩ đại</h5>
     <p class="card-text">Ta xem vạn vật là thầy. Tinh thần học hỏi của ta luôn rộng mở trước tất cả các người. Ta nói rằng nếu có một tài sản cần xây dựng cho đến đậm máy trên trời kia.</p>
