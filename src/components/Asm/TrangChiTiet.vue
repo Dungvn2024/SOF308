@@ -17,7 +17,7 @@
                     </li>
 
                     <li class="nav-item">
-                      <a class="nav-link" href="/asm/TrangChiTiet"><i class="fa-solid fa-list"></i> trang chi tiết</a>
+                        <a class="nav-link" href="/asm/TrangChiTiet"><i class="fa-solid fa-list"></i> trang chi tiết</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#"><i class="fa-solid fa-film"></i> Video</a>
@@ -51,46 +51,47 @@
         </div>
     </nav>
 
-    <h1>Liên hệ với chúng tôi</h1> <br>
-
-    <div class="contact-form">
-    <form @submit.prevent="submitForm">
-      <label for="name">Họ và Tên</label>
-      <input type="text" id="name" v-model="name" placeholder="Nhập tên của bạn" required />
-
-      <label for="email">Email</label>
-      <input type="email" id="email" v-model="email" placeholder="Nhập email của bạn" required />
-
-      <label for="message">Tin nhắn</label>
-      <textarea id="message" v-model="message" placeholder="Nhập tin nhắn của bạn" required></textarea>
-
-      <button type="submit">Gửi</button>
-    </form>
-  </div>
-        </template>
-        
-        <script>
-        export default {
-        name: "LienHe",
-        data() {
-    return {
-      name: '',
-      email: '',
-      message: '',
+<div class="col-sm-8">
+    <h2 class="text-info mb-3">Blog của tôi</h2>
+    <div class="card mb-3">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="./images/tap-piltes.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">Phương pháp tập Pilates giúp phục hồi chấn thương cột sống</h5>
+                    <p class="card-text">Người tập với tư thế đúng sẽ rất tốt cho cột sống. Đây là môn thể thao nhẹ nhàng.</p>
+                    <a href="#" class="btn btn-info">Xem thêm</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card mb-3">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="./images/eat-clean.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">Bí quyết ăn uống lành mạnh</h5>
+                    <p class="card-text">Bí quyết ăn uống lành mạnh và đầy đủ dinh dưỡng.</p>
+                    <a href="#" class="btn btn-info">Xem thêm</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    </template>
+    
+    <script>
+    export default {
+    name: "ChiTiet",
     };
-  },
-  methods: {
-    submitForm() {
-      alert(`Cảm ơn ${this.name}, chúng tôi đã nhận được tin nhắn của bạn!`);
-      this.name = '';
-      this.email = '';
-      this.message = '';
-    },
-  },
-        };
-        </script>
-        
-        <style scoped>
+    </script>
+    
+    <style scoped>
 .navbar {
         background-color: green; /* Light background for navbar */
       }
@@ -114,41 +115,5 @@
       .navbar-nav.d-flex .nav-link {
         color: #000 !important;
       }
-.contact-form {
-  max-width: 400px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #f9f9f9;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-.contact-form label {
-  display: block;
-  margin-bottom: 8px;
-  font-weight: bold;
-  color: #555;
-}
-.contact-form input,
-.contact-form textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 16px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-.contact-form button {
-  width: 100%;
-  padding: 10px;
-  background-color: #007bff;
-  color: #fff;
-  font-size: 16px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-.contact-form button:hover {
-  background-color: #0056b3;
-}
-</style>
+    
+    </style>

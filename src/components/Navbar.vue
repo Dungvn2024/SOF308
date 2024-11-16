@@ -108,8 +108,10 @@
                   <a class="dropdown-item" href="/asm/TaiKhoan/dangnhap">đăng nhập</a>
                   <a class="dropdown-item" href="/asm/TaiKhoan/Dangky">đăng ký</a>
                   <a class="dropdown-item" href="/asm/TaiKhoan/Quenmk">QuenMK</a>
-                  <a class="dropdown-item" href="/asm/MainContact">trang chi tiết</a>
+                  <a class="dropdown-item" href="/asm/TrangChiTiet">trang chi tiết</a>
                   <a class="dropdown-item" href="/asm/Baiviet">Bài viết</a>
+                  <a class="dropdown-item" href="/asm/GioiThieu">Giới thiệu bản thân</a>
+                  <a class="dropdown-item" href="/asm/LienHe">Liên hệ</a>
               </li>
               <li><hr class="dropdown-divider" /></li>
             </ul>

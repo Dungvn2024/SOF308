@@ -14,12 +14,15 @@ import Lab4Bai4Page from "../../Lab4/src/components/Bai4.vue"
 
 // Asm
 import HomePage from "../components/Asm/index.vue"
- import MainContact from "../components/Asm/MainContact.vue"
+ import MainContact from "../components/Asm/GioiThieu.vue"
+ import ChiTiet from "../components/Asm/TrangChiTiet.vue"
  import DangNhap from "../components/Asm/TaiKhoan/Dangnhap.vue"
  import DangKy from "../components/Asm/TaiKhoan/DangKy.vue"
  import QuenMK from "../components/Asm/TaiKhoan/QuenMK.vue"
  import SidebarPage from "../components/Asm/Sidebar.vue"
  import BaiVietPage from "../components/Asm/Baiviet.vue"
+ import LienHe from "../components/Asm/LienHe.vue"
+ 
 // Trang web
 
  import TapPilates1 from "../components/Asm/WebChinh/Tap-pilates1.vue"
@@ -56,12 +59,15 @@ const routes = [
     { path: '/Lab4/Bai4', component: Lab4Bai4Page},
 // Asm 
     { path: '/Asm/index', component: HomePage },
-    { path: '/Asm/MainContact', component: MainContact },
+    { path: '/Asm/GioiThieu', component: MainContact },
+    { path: '/Asm/TrangChiTiet', component: ChiTiet },
     { path: '/Asm/TaiKhoan/Dangnhap', component: DangNhap },
     { path: '/Asm/TaiKhoan/DangKy', component: DangKy },
     { path: '/Asm/TaiKhoan/QuenMK', component: QuenMK },
     { path: '/Asm/Sidebar', component: SidebarPage  },
     { path: '/Asm/Baiviet', component: BaiVietPage  },
+    { path: '/Asm/LienHe', component: LienHe  },
+
 
     { path: '/Asm/WebChinh/TapPilates1', component: TapPilates1  },
     { path: '/Asm/WebChinh/CleanEating', component: CleanEating  },

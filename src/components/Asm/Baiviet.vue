@@ -1,4 +1,56 @@
 <template>
+  <nav class="navbar navbar-expand-sm navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="/public/index.html">
+                <img src="./images/FPT-Poly.png" alt="" style="width: 150px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/asm/index"><i class="fa-solid fa-list"></i> trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/asm/Baiviet"><i class="fa-solid fa-list"></i> Bài viết</a>
+                    </li>
+
+                    <li class="nav-item">
+                      <a class="nav-link" href="/asm/TrangChiTiet"><i class="fa-solid fa-list"></i> trang chi tiết</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-film"></i> Video</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/asm/GioiThieu"><i class="fa-solid fa-circle-info"></i> Giới thiệu bản thân</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/asm/LienHe"><i class="fa-solid fa-calendar-days"></i> Liên hệ</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            <i class="fa-solid fa-user"></i> Tài khoản
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/asm/TaiKhoan/dangnhap">Đăng nhập</a></li>
+                            <li><a class="dropdown-item" href="/asm/TaiKhoan/Dangky">Quên mật khẩu</a></li>
+                            <li><a class="dropdown-item" href="/asm/TaiKhoan/Quenmk">Đăng ký thành viên</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="navbar-nav d-flex">
+                    <li class="nav-item">
+                        <a class="nav-link">Tiếng Việt</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Tiếng Anh</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
     <div class="container mt-4">
   
       <!-- Main content -->
@@ -57,7 +109,7 @@
                 <div class="card-body">
                   <h6 class="card-title">Phương pháp tập Pilates giúp phục hồi chấn thương cột sống {{ i }}</h6>
                   <p class="card-text">Ngoài việc giúp duy trì vóc dáng, cải thiện sự linh hoạt, dẻo dai, các bài tập Pilates còn có khả năng trị đau lưng, là giải pháp hữu hiệu để phục hồi chấn thương cột sống.</p>
-                  <a href="#" class="btn btn-primary btn-sm">Xem thêm</a>
+                  <a href="/asm/WebChinh/TapPilates1" class="btn btn-primary btn-sm">Xem thêm</a>
                 </div>
                 
                 <div class="card">
@@ -83,7 +135,7 @@
                 <div class="card-body">
                   <h6 class="card-title">EAT CLEAN: Nên Và Không Nên Ăn Thực Phẩm Nào?</h6>
                   <p class="card-text">Chúng ta luôn chú trọng trong lựa chọn thực phẩm sạch và duy trì lối sống lành mạnh. Vậy chế độ ăn Eat Clean nên và không nên ăn gì trong thực đơn hàng ngày để đảm bảo cung cấp đủ dinh dưỡng cho cơ thể?</p>
-                  <a href="#" class="btn btn-primary btn-sm">Xem thêm</a>
+                  <a href="/asm/WebChinh/CleanEating" class="btn btn-primary btn-sm">Xem thêm</a>
                 </div>
               </div>
 
@@ -113,6 +165,29 @@
   </script>
   
   <style scoped>
+.navbar {
+        background-color: green; /* Light background for navbar */
+      }
+
+      .navbar .nav-link {
+        color: #000 !important; /* Set nav text color to black */
+      }
+
+      .navbar .navbar-brand img {
+        width: 150px;
+      }
+
+      .navbar .dropdown-menu {
+        background-color: #f8f9fa;
+      }
+
+      .dropdown-item {
+        color: #000 !important; /* Set dropdown text color to black */
+      }
+
+      .navbar-nav.d-flex .nav-link {
+        color: #000 !important;
+      }
   .carousel img {
     height: 250px;
     object-fit: cover;

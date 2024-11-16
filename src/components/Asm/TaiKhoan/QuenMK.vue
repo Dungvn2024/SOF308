@@ -1,4 +1,6 @@
 <template>
+
+
     <div class="container mt-5">
         <div class="row">
     <!-- Login Form -->
@@ -21,6 +23,29 @@
     };
     </script>
     
-    <style>
+    <style scoped>
+.navbar {
+        background-color: green; /* Light background for navbar */
+      }
+
+      .navbar .nav-link {
+        color: #000 !important; /* Set nav text color to black */
+      }
+
+      .navbar .navbar-brand img {
+        width: 150px;
+      }
+
+      .navbar .dropdown-menu {
+        background-color: #f8f9fa;
+      }
+
+      .dropdown-item {
+        color: #000 !important; /* Set dropdown text color to black */
+      }
+
+      .navbar-nav.d-flex .nav-link {
+        color: #000 !important;
+      }
     
     </style>
