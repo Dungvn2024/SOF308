@@ -33,7 +33,6 @@
                 <li><a class="dropdown-item" href="/lab1/bai2">Bai 2</a></li>
                 <li><a class="dropdown-item" href="/lab1/bai3">Bai 3</a></li>
                 <li><a class="dropdown-item" href="/lab1/bai4">Bai 4</a></li>
-                <li><hr class="dropdown-divider" /></li>
               </ul>
             </li>
   
@@ -52,7 +51,6 @@
                 <li><a class="dropdown-item" href="/lab2/bai2">Bai 2</a></li>
                 <li><a class="dropdown-item" href="/lab2/bai3">Bai 3</a></li>
                 <li><a class="dropdown-item" href="/lab2/bai4">Bai 4</a></li>
-                <li><hr class="dropdown-divider" /></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -70,7 +68,6 @@
                 <li><a class="dropdown-item" href="/lab3/bai2">Bai 2</a></li>
                 <li><a class="dropdown-item" href="/lab3/bai3">Bai 3</a></li>
                 <li><a class="dropdown-item" href="/lab3/bai4">Bai 4</a></li>
-                <li><hr class="dropdown-divider" /></li>
               </ul>
             </li>
 
@@ -88,7 +85,6 @@
                 <li><a class="dropdown-item" href="/lab4/Hello">Bai 2</a></li>
                 <li><a class="dropdown-item" href="/lab4/Bai3">Bai 3</a></li>
                 <li><a class="dropdown-item" href="/lab4/Bai4">Bai 4</a></li>
-                <li><hr class="dropdown-divider" /></li>
               </ul>
             </li>
 
@@ -113,7 +109,6 @@
                   <a class="dropdown-item" href="/asm/GioiThieu">Giới thiệu bản thân</a>
                   <a class="dropdown-item" href="/asm/LienHe">Liên hệ</a>
               </li>
-              <li><hr class="dropdown-divider" /></li>
             </ul>
           </li>
         </ul>

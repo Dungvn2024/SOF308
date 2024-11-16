@@ -44,89 +44,97 @@
        };
        </script>
        
-       <style>
-       * {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
+       <style scoped>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-   font-family: Arial, sans-serif;
-   line-height: 1.6;
-   padding: 20px;
-   background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: left; /* Đảm bảo toàn bộ văn bản được căn trái */
 }
 
 .container {
-   display: flex;
-   max-width: 1200px;
-   margin: auto;
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .main-content {
-   flex: 0 0 70%;
-   margin-right: 20px;
+    flex: 0 0 70%;
+    margin-right: 20px;
+    text-align: left; /* Căn trái cho nội dung chính */
 }
 
 .sidebar {
-   flex: 0 0 30%;
-   background-color: #fff;
-   padding: 20px;
-   border: 1px solid #ddd;
-   border-radius: 8px;
+    flex: 0 0 30%;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: left; /* Căn trái cho phần sidebar */
 }
 
 .title {
-   font-size: 24px;
-   color: #17a2b8;
-   margin-bottom: 20px;
+    font-size: 24px;
+    color: #17a2b8;
+    margin-bottom: 20px;
+    text-align: left; /* Căn trái cho tiêu đề */
 }
 
 .main-image, .section-image {
-   width: 100%;
-   height: auto;
-   margin: 15px 0;
-   border-radius: 8px;
+    width: 100%;
+    height: auto;
+    margin: 15px 0;
+    border-radius: 8px;
 }
 
 .section-title {
-   font-size: 20px;
-   color: #17a2b8;
-   margin: 15px 0;
+    font-size: 20px;
+    color: #17a2b8;
+    margin: 15px 0;
+    text-align: left; /* Căn trái cho các tiêu đề phần */
 }
 
 .comment-box {
-   width: 100%;
-   height: 100px;
-   margin-bottom: 10px;
-   padding: 10px;
-   border: 1px solid #ddd;
-   border-radius: 5px;
-   resize: none;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: none;
+    text-align: left; /* Căn trái cho ô bình luận */
 }
 
 .submit-btn {
-   width: 100%;
-   padding: 10px;
-   background-color: #17a2b8;
-   color: #fff;
-   border: none;
-   border-radius: 5px;
-   cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    background-color: #17a2b8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center; /* Căn chữ ở giữa nút */
 }
 
 .submit-btn:hover {
-   background-color: #138496;
+    background-color: #138496;
 }
 
 .comment-list {
-   list-style-type: none;
-   margin-top: 15px;
+    list-style-type: none;
+    margin-top: 15px;
+    text-align: left; /* Căn trái cho danh sách bình luận */
 }
 
 .comment-list li {
-   padding: 8px;
-   border-bottom: 1px solid #ddd;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
 }
        </style>

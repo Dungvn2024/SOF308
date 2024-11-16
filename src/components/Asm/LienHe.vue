@@ -1,6 +1,5 @@
 <template>
     <nav class="navbar navbar-expand-sm navbar-dark">
-        <div class="container">
             <a class="navbar-brand" href="/public/index.html">
                 <img src="./images/FPT-Poly.png" alt="" style="width: 150px;">
             </a>
@@ -48,7 +47,6 @@
                     </li>
                 </ul>
             </div>
-        </div>
     </nav>
 
     <h1>Liên hệ với chúng tôi</h1> <br>
@@ -92,7 +90,7 @@
         
         <style scoped>
 .navbar {
-        background-color: green; /* Light background for navbar */
+        background-color: white; /* Light background for navbar */
       }
 
       .navbar .nav-link {

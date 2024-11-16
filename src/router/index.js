@@ -6,6 +6,21 @@ import NavBarPage from "../components/Lab1/bai2.vue"
 import Lab1SidebarPage from "../components/Lab1/bai3.vue"
 import Lab1MainContact from "../components/Lab1/bai4.vue"
 
+//Lab2
+import Lab2Bai1Page from "../components/Lab2/Bai1.vue"
+import Lab2Bai2Page from "../components/Lab2/Bai2.vue"
+import Lab2Bai3Page from "../components/Lab2/Bai3.vue"
+import Lab2Bai4Page from "../components/Lab2/Bai4.vue"
+
+//Lab3
+import Lab3Bai1Page from "../components/Lab3/Bai1.vue"
+import Lab3Bai2Page from "../components/Lab3/Bai2.vue"
+import Lab3Bai3Page from "../components/Lab3/Bai3.vue"
+import Lab3Bai4Page from "../components/Lab3/Bai4.vue"
+
+//side
+import Lab3Bai31Page from "../components/Lab3/Bai3.1.vue"
+import Lab3TapPilates1 from "../components/Lab3/WebChinh/Tap-pilates1.vue"
 //Lab4
 
 import Lab4Bai2Page from "../../Lab4/src/components/Hello.vue"
@@ -19,7 +34,6 @@ import HomePage from "../components/Asm/index.vue"
  import DangNhap from "../components/Asm/TaiKhoan/Dangnhap.vue"
  import DangKy from "../components/Asm/TaiKhoan/DangKy.vue"
  import QuenMK from "../components/Asm/TaiKhoan/QuenMK.vue"
- import SidebarPage from "../components/Asm/Sidebar.vue"
  import BaiVietPage from "../components/Asm/Baiviet.vue"
  import LienHe from "../components/Asm/LienHe.vue"
  
@@ -27,8 +41,8 @@ import HomePage from "../components/Asm/index.vue"
 
  import TapPilates1 from "../components/Asm/WebChinh/Tap-pilates1.vue"
  import CleanEating from "../components/Asm/WebChinh/CleanEating.vue"
-
-
+ import QuanSu1 from "../components/Asm/WebChinh/QuanSu.vue"
+ import QuanSu2 from "../components/Asm/WebChinh/QuanSu2.vue"
  
 
 
@@ -50,9 +64,18 @@ const routes = [
     { path: '/Lab1/bai3', component: Lab1SidebarPage},
     { path: '/Lab1/bai4', component: Lab1MainContact},
     //Lab2
-
+    { path: '/Lab2/bai1', component: Lab2Bai1Page},
+    { path: '/Lab2/bai2', component: Lab2Bai2Page},
+    { path: '/Lab2/bai3', component: Lab2Bai3Page},
+    { path: '/Lab2/bai4', component: Lab2Bai4Page},
     //lab3
-
+    { path: '/Lab3/bai1', component: Lab3Bai1Page},
+    { path: '/Lab3/bai2', component: Lab3Bai2Page},
+    { path: '/Lab3/bai3', component: Lab3Bai3Page},
+    { path: '/Lab3/bai4', component: Lab3Bai4Page},
+    //side
+    { path: '/Lab3/bai3.1', component: Lab3Bai31Page},
+    { path: '/Lab3/WebChinh/TapPilates1', component: Lab3TapPilates1  },
     //lab4
     { path: '/Lab4/Hello', component: Lab4Bai2Page},
     { path: '/Lab4/Bai3', component: Lab4Bai3Page},
@@ -64,13 +87,15 @@ const routes = [
     { path: '/Asm/TaiKhoan/Dangnhap', component: DangNhap },
     { path: '/Asm/TaiKhoan/DangKy', component: DangKy },
     { path: '/Asm/TaiKhoan/QuenMK', component: QuenMK },
-    { path: '/Asm/Sidebar', component: SidebarPage  },
     { path: '/Asm/Baiviet', component: BaiVietPage  },
     { path: '/Asm/LienHe', component: LienHe  },
 
 
     { path: '/Asm/WebChinh/TapPilates1', component: TapPilates1  },
     { path: '/Asm/WebChinh/CleanEating', component: CleanEating  },
+    { path: '/Asm/WebChinh/QuanSu', component: QuanSu1  },
+    { path: '/Asm/WebChinh/QuanSu2', component: QuanSu2  },
+    
 
 
 

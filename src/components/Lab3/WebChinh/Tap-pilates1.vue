@@ -41,7 +41,7 @@
 
 <script>
         export default {
-        name: "TapPilates1",
+        name: "Lab3TapPilates1",
         };
         </script>
         

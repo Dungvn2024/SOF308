@@ -1,66 +1,50 @@
 <template>
-
-<!-- <div class="slideshow-container">
-    <div
-      v-for="(slide, index) in slides"
-      :key="index"
-      v-show="currentIndex === index"
-      class="slide fade"
-    >
-      <img :src="slide" alt="Slide" />
+    <nav class="navbar navbar-expand-sm navbar-dark">
+    <div class="container">
+        <a class="navbar-brand" href="/public/index.html">
+            <img src="./images/logo-energy-pilates.png" alt="" style="width: 150px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/lab3/bai3.1"><i class="fa-solid fa-list"></i> Bài viết</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa-solid fa-film"></i> Video</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa-solid fa-circle-info"></i> Giới thiệu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa-solid fa-calendar-days"></i> Sự kiện</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                        <i class="fa-solid fa-user"></i> Tài khoản
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Đăng nhập</a></li>
+                        <li><a class="dropdown-item" href="#">Quên mật khẩu</a></li>
+                        <li><a class="dropdown-item" href="#">Đăng ký thành viên</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="navbar-nav d-flex">
+                <li class="nav-item">
+                    <a class="nav-link">Tiếng Việt</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">Tiếng Anh</a>
+                </li>
+            </ul>
+        </div>
     </div>
-  </div> -->
-  <nav class="navbar navbar-expand-sm navbar-dark">
-            <a class="navbar-brand" href="/public/index.html">
-                <img src="./images/FPT-Poly.png" alt="" style="width: 150px;">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav me-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/asm/index"><i class="fa-solid fa-list"></i> trang chủ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/asm/Baiviet"><i class="fa-solid fa-list"></i> Bài viết</a>
-                    </li>
+</nav>
 
-                    <li class="nav-item">
-                      <a class="nav-link" href="/asm/TrangChiTiet"><i class="fa-solid fa-list"></i> trang chi tiết</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fa-solid fa-film"></i> Video</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/asm/GioiThieu"><i class="fa-solid fa-circle-info"></i> Giới thiệu bản thân</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/asm/LienHe"><i class="fa-solid fa-calendar-days"></i> Liên hệ</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                            <i class="fa-solid fa-user"></i> Tài khoản
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="/asm/TaiKhoan/dangnhap">Đăng nhập</a></li>
-                            <li><a class="dropdown-item" href="/asm/TaiKhoan/Dangky">Quên mật khẩu</a></li>
-                            <li><a class="dropdown-item" href="/asm/TaiKhoan/Quenmk">Đăng ký thành viên</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <ul class="navbar-nav d-flex">
-                    <li class="nav-item">
-                        <a class="nav-link">Tiếng Việt</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link">Tiếng Anh</a>
-                    </li>
-                </ul>
-            </div>
-    </nav>
-
-  <img src="./images/Environment.jpg" class="d-block w-100" alt="Carousel Image">
+<img src="./images/banner1.jpg" class="d-block w-100" alt="Carousel Image">
 
 
   <div class="container">
@@ -69,19 +53,16 @@
     <h2 class="text-info">Về tôi</h2>
     <div class="card">
       <!-- Avatar Image -->
-      <img src="./images/tn.jpg" alt="Avatar" />
+      <img src="./images/avatar.png" alt="Avatar" />
       <div class="card-body">
         <h5 class="card-title">Giới thiệu bản thân</h5>
         <!-- Personal Introduction Text -->
-        <p class="card-text">
-          Tên: Nguyễn Thanh Dũng<br />
-          Một sinh viên học tại trường Fpt Polytechnic <br>
-          Nơi ở: bình Dương, huyện Phù Mỹ, tỉnh Bình Định <br>
-          Nơi sống hiện tại: 169 đường Thanh Niên, Thành Phố Quy Nhơn <br>
-          Châm ngôn: "Thành công không phải là điểm đến, mà là hành trình."
-        </p>
+        <p class="card-text">TS. Trần Hoàng, Tổ chức Tư vấn sức khỏe quốc tế độc lập<br>
+                Châm ngôn: Ta không được chọn nơi mình sinh ra, nhưng ta được chọn cách mình sẽ sống
+            </p>
       </div>
     </div>
+
 
     <h3 class="text-info mt-2">Chuyên mục</h3>
             <ul class="list-group">
@@ -116,7 +97,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Phương pháp tập Pilates giúp phục hồi chấn thương cột sống</h5>
                             <p class="card-text">Người tập với tư thế đúng sẽ rất tốt cho cột sống. Đây là môn thể thao nhẹ nhàng.</p>
-                            <a href="/asm/WebChinh/TapPilates1" class="btn btn-info">Xem chi tiết</a>
+                            <a href="#" class="btn btn-info">Xem chi tiết</a>
                         </div>
                     </div>
                 </div>
@@ -131,22 +112,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Bí quyết ăn uống lành mạnh</h5>
                             <p class="card-text">Bí quyết ăn uống lành mạnh và đầy đủ dinh dưỡng.</p>
-                            <a href="/asm/WebChinh/CleanEating" class="btn btn-info">Xem Chi tiết</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card mb-3">
-                <div class="row g-0">
-                    <div class="col-md-4">
-                        <img src="./images/QuanSu1.jpg" class="img-fluid rounded-start" alt="...">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Đào tạo quân sự có gì hay?</h5>
-                            <p class="card-text">Đào tạo quân sự không chỉ rèn luyện thể lực mà còn giúp người tham gia phát triển kỹ năng sinh tồn, tính kỷ luật và tinh thần đồng đội.</p>
-                            <a href="/asm/WebChinh/QuanSu" class="btn btn-info">Xem Chi tiết</a>
+                            <a href="#" class="btn btn-info">Xem Chi tiết</a>
                         </div>
                     </div>
                 </div>
@@ -194,10 +160,7 @@
   </main>
 </div>
 
-
-
-
-   <div class="container mt-5">
+<div class="container mt-5">
         <div class="container-flex">
             <!-- Sidebar Section: Đọc nhiều & Xem nhiều -->
             <div class="sidebar">
@@ -308,18 +271,21 @@
             </div>
         </div>
     </div>
+
+
+
 </template>
-
-<script>
-export default {
-name: "HomePage",
-
-};
-</script>
-
-<style scoped>
-.navbar {
-        background-color: lightgoldenrodyellow; /* Light background for navbar */
+    
+    <script>
+    
+    export default {
+    name: "Lab3Bai3Page",
+    };
+    </script>
+    
+    <style scoped>
+      .navbar {
+        background-color: #f8f9fa; /* Light background for navbar */
       }
 
       .navbar .nav-link {
@@ -341,12 +307,7 @@ name: "HomePage",
       .navbar-nav.d-flex .nav-link {
         color: #000 !important;
       }
-
-
-
-
-/* banner */
-
+    
 .carousel-inner img {
   height: 400px; /* Adjust height as needed */
   object-fit: cover;
@@ -506,7 +467,4 @@ name: "HomePage",
   font-weight: bold;
   color: #888;
 }
-
-
-</style>
-
+      </style>

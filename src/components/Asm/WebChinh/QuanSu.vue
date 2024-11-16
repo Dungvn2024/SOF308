@@ -1,27 +1,27 @@
 <template>
-     <div class="container">
+    <div class="container">
         <!-- Main Content -->
         <main class="main-content">
-            <h1 class="title">Phương pháp tập Pilates giúp phục hồi chấn thương cột sống</h1>
-            <img src="../images/tap-pilates1.jpg" alt="Pilates" class="main-image">
+            <h1 class="title">Đào tạo quân sự có gì hay?</h1>
+            <img src="../images/QuanSu1.jpg" alt="Military Training" class="main-image">
             
-            <p>Tập Pilates có thể còn khá xa lạ với người Việt, nhưng tại các nước phương Tây thì đây chính là phương pháp tập đặc trị giúp giữ lưng, cột sống ở vị trí cân bằng và cải thiện sự linh hoạt, dẻo dai cho người tập. Bài viết này giới thiệu về các phương pháp tập Pilates có khả năng hỗ trợ điều trị đau lưng, giúp phục hồi chấn thương cột sống nhanh chóng.</p>
+            <p>Đào tạo quân sự không chỉ rèn luyện thể lực mà còn giúp người tham gia phát triển kỹ năng sinh tồn, tính kỷ luật và tinh thần đồng đội. Bài viết này sẽ giới thiệu những điểm thú vị của quá trình đào tạo quân sự.</p>
             
-            <h2 class="section-title">Pilates giúp phục hồi chấn thương cột sống nhanh chóng</h2>
-            <p>Một trong những căn bệnh nguy hiểm đối với dân văn phòng là đau lưng, thoát vị đĩa đệm. Tuy nhiên, điều trị không đúng cách có thể dẫn đến nhiều biến chứng nguy hiểm, bao gồm: Vỡ đĩa đệm, tổn thương thần kinh, và nhiều vấn đề khác.</p>
-            <img src="../images/tap-pilates2.jpg" alt="Pilates Cat Cow" class="section-image">
+            <h2 class="section-title">Lợi ích từ đào tạo quân sự</h2>
+            <p>Trong môi trường quân sự, người học được rèn luyện thể lực, trau dồi tinh thần thép và khả năng ứng biến trong những tình huống khó khăn. Đây là hành trang quan trọng trong cả đời sống và công việc.</p>
+            <img src="../images/QuanSu2.jpg" alt="Military Training Benefits" class="section-image">
 
-            <h3 class="section-title">Phương pháp tập Pilates Cat Cow</h3>
-            <p>Các bước thực hiện:</p>
+            <h3 class="section-title">Các bài học nổi bật</h3>
+            <p>Một số nội dung chính trong đào tạo quân sự:</p>
             <ul>
-                <li>Bắt đầu với tư thế 4 điểm.</li>
-                <li>Vào tư thế đẩy lưng lên, nâng cằm lên, mở rộng ngực.</li>
-                <li>Giữ nhịp thở và hạ lưng xuống.</li>
-                <li>Lặp lại khoảng từ 5 đến 7 lần.</li>
+                <li>Học cách xử lý tình huống khẩn cấp.</li>
+                <li>Rèn luyện khả năng làm việc nhóm hiệu quả.</li>
+                <li>Phát triển tính kỷ luật cá nhân.</li>
+                <li>Cải thiện sức bền và ý chí kiên cường.</li>
             </ul>
 
             <h3 class="section-title">Lời kết</h3>
-            <p>Tóm lại, phương pháp tập Pilates giúp phục hồi chấn thương cột sống hiệu quả. Để đạt được kết quả tốt, người tập cần thực hiện đều đặn.</p>
+            <p>Đào tạo quân sự mang lại nhiều trải nghiệm quý giá, giúp người tham gia phát triển toàn diện. Đây là cơ hội để khám phá bản thân và chuẩn bị tốt hơn cho tương lai.</p>
         </main>
 
         <!-- Sidebar -->
@@ -32,21 +32,23 @@
 
             <h3>Danh sách các bình luận:</h3>
             <ul class="comment-list">
-                <li>Bình An: Bài viết rất hữu ích</li>
-                <li>Bình An: Cảm ơn những chia sẻ bổ ích</li>
+                <li>Ngọc Hà: Bài viết rất thú vị!</li>
+                <li>Minh Tuấn: Tôi rất muốn thử tham gia đào tạo quân sự!</li>
+                <li>Một thằng đàn ông nào đó: Tôi nghi rằng những Anh cao to đen hôi có thể vào được Nơi này không?</li>
             </ul>
         </aside>
     </div>
+
 </template>
 
 <script>
-        export default {
-        name: "TapPilates1",
-        };
-        </script>
-        
+       export default {
+       name: "QuanSu1",
+       };
+       </script>
+       
 
-        <style scoped>
+       <style scoped>
     * {
     margin: 0;
     padding: 0;
