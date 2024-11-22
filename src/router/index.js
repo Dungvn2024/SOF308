@@ -27,6 +27,29 @@ import Lab4Bai2Page from "../../Lab4/src/components/Hello.vue"
 import Lab4Bai3Page from "../../Lab4/src/components/Bai3.vue"
 import Lab4Bai4Page from "../../Lab4/src/components/Bai4.vue"
 
+//Lab5
+// import Lab7Bai1Page from "../components/Lab7Bai1.vue"
+// import Lab7Bai2Page from "../components/Lab7/Bai2.vue"
+// import Lab7Bai3Page from "../components/Lab7/Bai3.vue"
+// import Lab7Bai4Page from "../components/Lab7/Bai4.vue"
+
+//Lab6
+import Lab6Bai1Page from "../components/Lab6/Bai1.vue"
+import Lab6Bai2Page from "../components/Lab6/Bai2.vue"
+import Lab6Bai3Page from "../components/Lab6/Bai3.vue"
+import Lab6Bai4Page from "../components/Lab6/Bai4.vue"
+
+//Lab7
+// import Lab7Bai1Page from "../components/Lab7Bai1.vue"
+// import Lab7Bai2Page from "../components/Lab7/Bai2.vue"
+// import Lab7Bai3Page from "../components/Lab7/Bai3.vue"
+// import Lab7Bai4Page from "../components/Lab7/Bai4.vue"
+//Lab8
+// import Lab7Bai1Page from "../components/Lab7Bai1.vue"
+// import Lab7Bai2Page from "../components/Lab7/Bai2.vue"
+// import Lab7Bai3Page from "../components/Lab7/Bai3.vue"
+// import Lab7Bai4Page from "../components/Lab7/Bai4.vue"
+
 // Asm
 import HomePage from "../components/Asm/index.vue"
  import MainContact from "../components/Asm/GioiThieu.vue"
@@ -80,6 +103,30 @@ const routes = [
     { path: '/Lab4/Hello', component: Lab4Bai2Page},
     { path: '/Lab4/Bai3', component: Lab4Bai3Page},
     { path: '/Lab4/Bai4', component: Lab4Bai4Page},
+    //lab5
+
+    // {path: '/Lab5/bai1', component: Lab5Bai1Page},
+    // {path: '/Lab5/bai2', component: Lab5Bai2Page},
+    // {path: '/Lab5/bai3', component: Lab5Bai3Page},
+    // {path: '/Lab5/bai4', component: Lab5Bai4Page},
+
+    //Lab6
+    {path: '/Lab6/bai1', component: Lab6Bai1Page},
+    {path: '/Lab6/bai2', component: Lab6Bai2Page},
+    {path: '/Lab6/bai3', component: Lab6Bai3Page},
+    {path: '/Lab6/bai4', component: Lab6Bai4Page},
+
+    //Lab7
+    // {path: '/Lab5/bai1', component: Lab5Bai1Page},
+    // {path: '/Lab5/bai2', component: Lab5Bai2Page},
+    // {path: '/Lab5/bai3', component: Lab5Bai3Page},
+    // {path: '/Lab5/bai4', component: Lab5Bai4Page},
+
+    //Lab8
+    // {path: '/Lab5/bai1', component: Lab5Bai1Page},
+    // {path: '/Lab5/bai2', component: Lab5Bai2Page},
+    // {path: '/Lab5/bai3', component: Lab5Bai3Page},
+    // {path: '/Lab5/bai4', component: Lab5Bai4Page},
 // Asm 
     { path: '/Asm/index', component: HomePage },
     { path: '/Asm/GioiThieu', component: MainContact },

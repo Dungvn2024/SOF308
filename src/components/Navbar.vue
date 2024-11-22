@@ -96,6 +96,61 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
+                Lab 4
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/lab4/Hello">Bai 2</a></li>
+                <li><a class="dropdown-item" href="/lab4/Bai3">Bai 3</a></li>
+                <li><a class="dropdown-item" href="/lab4/Bai4">Bai 4</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Lab 5
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/lab5/Bai1">Bai 1</a></li>
+                <li><a class="dropdown-item" href="/lab5/Bai2">Bai 2</a></li>
+                <li><a class="dropdown-item" href="/lab5/Bai3">Bai 3</a></li>
+                <li><a class="dropdown-item" href="/lab5/Bai4">Bai 4</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Lab 6
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/lab6/Bai1">Bai 1</a></li>
+                <li><a class="dropdown-item" href="/lab6/Bai2">Bai 2</a></li>
+                <li><a class="dropdown-item" href="/lab6/Bai3">Bai 3</a></li>
+                <li><a class="dropdown-item" href="/lab6/Bai4">Bai 4</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+
+              
                 asm
               </a>
               <ul class="dropdown-menu">
