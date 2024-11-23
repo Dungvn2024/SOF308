@@ -119,7 +119,7 @@
                 <li><a class="dropdown-item" href="/lab5/Bai1">Bai 1</a></li>
                 <li><a class="dropdown-item" href="/lab5/Bai2">Bai 2</a></li>
                 <li><a class="dropdown-item" href="/lab5/Bai3">Bai 3</a></li>
-                <li><a class="dropdown-item" href="/lab5/Bai4">Bai 4</a></li>
+                <li><a class="dropdown-item" href="/lab5/App">Bai 4</a></li>
               </ul>
             </li>
 

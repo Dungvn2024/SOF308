@@ -28,10 +28,13 @@ import Lab4Bai3Page from "../../Lab4/src/components/Bai3.vue"
 import Lab4Bai4Page from "../../Lab4/src/components/Bai4.vue"
 
 //Lab5
-// import Lab7Bai1Page from "../components/Lab7Bai1.vue"
-// import Lab7Bai2Page from "../components/Lab7/Bai2.vue"
-// import Lab7Bai3Page from "../components/Lab7/Bai3.vue"
-// import Lab7Bai4Page from "../components/Lab7/Bai4.vue"
+import Lab5Bai1Page from "../components/Lab5/Bai1.vue"
+import Lab5Bai2Page from "../components/Lab5/Bai2.vue"
+import Lab5Bai3Page from "../components/Lab5/Bai3.vue"
+import Lab5Bai4Page from "../components/Lab5/App.vue"
+
+// import CreatePostPage from "../components/Lab5/CreatePost.vue"
+// import PostListPage from "../components/Lab5/PostList.vue"
 
 //Lab6
 import Lab6Bai1Page from "../components/Lab6/Bai1.vue"
@@ -44,11 +47,12 @@ import Lab6Bai4Page from "../components/Lab6/Bai4.vue"
 // import Lab7Bai2Page from "../components/Lab7/Bai2.vue"
 // import Lab7Bai3Page from "../components/Lab7/Bai3.vue"
 // import Lab7Bai4Page from "../components/Lab7/Bai4.vue"
+
 //Lab8
-// import Lab7Bai1Page from "../components/Lab7Bai1.vue"
-// import Lab7Bai2Page from "../components/Lab7/Bai2.vue"
-// import Lab7Bai3Page from "../components/Lab7/Bai3.vue"
-// import Lab7Bai4Page from "../components/Lab7/Bai4.vue"
+// import Lab8Bai1Page from "../components/Lab8/Bai1.vue"
+// import Lab8Bai2Page from "../components/Lab8/Bai2.vue"
+// import Lab8Bai3Page from "../components/Lab8/Bai3.vue"
+// import Lab8Bai4Page from "../components/Lab8/Bai4.vue"
 
 // Asm
 import HomePage from "../components/Asm/index.vue"
@@ -105,10 +109,13 @@ const routes = [
     { path: '/Lab4/Bai4', component: Lab4Bai4Page},
     //lab5
 
-    // {path: '/Lab5/bai1', component: Lab5Bai1Page},
-    // {path: '/Lab5/bai2', component: Lab5Bai2Page},
-    // {path: '/Lab5/bai3', component: Lab5Bai3Page},
-    // {path: '/Lab5/bai4', component: Lab5Bai4Page},
+    {path: '/Lab5/bai1', component: Lab5Bai1Page},
+    {path: '/Lab5/bai2', component: Lab5Bai2Page},
+    {path: '/Lab5/bai3', component: Lab5Bai3Page},
+    {path: '/Lab5/App', component: Lab5Bai4Page},
+
+    // {path: '/Lab5/CreatePost', component: CreatePostPage},
+    // {path: '/Lab5/PostList', component: PostListPage},
 
     //Lab6
     {path: '/Lab6/bai1', component: Lab6Bai1Page},
@@ -117,16 +124,16 @@ const routes = [
     {path: '/Lab6/bai4', component: Lab6Bai4Page},
 
     //Lab7
-    // {path: '/Lab5/bai1', component: Lab5Bai1Page},
-    // {path: '/Lab5/bai2', component: Lab5Bai2Page},
-    // {path: '/Lab5/bai3', component: Lab5Bai3Page},
-    // {path: '/Lab5/bai4', component: Lab5Bai4Page},
+    // {path: '/Lab7/bai1', component: Lab7Bai1Page},
+    // {path: '/Lab7/bai2', component: Lab7Bai2Page},
+    // {path: '/Lab7/bai3', component: Lab7Bai3Page},
+    // {path: '/Lab7/bai4', component: Lab7Bai4Page},
 
     //Lab8
-    // {path: '/Lab5/bai1', component: Lab5Bai1Page},
-    // {path: '/Lab5/bai2', component: Lab5Bai2Page},
-    // {path: '/Lab5/bai3', component: Lab5Bai3Page},
-    // {path: '/Lab5/bai4', component: Lab5Bai4Page},
+    // {path: '/Lab8/bai1', component: Lab8Bai1Page},
+    // {path: '/Lab8/bai2', component: Lab8Bai2Page},
+    // {path: '/Lab8/bai3', component: Lab8Bai3Page},
+    // {path: '/Lab8/bai4', component: Lab8Bai4Page},
 // Asm 
     { path: '/Asm/index', component: HomePage },
     { path: '/Asm/GioiThieu', component: MainContact },
