@@ -1,5 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router';
 
+import StartPage from "../components/Asm/Start.vue"
+import LoginPage from "../components/Asm/Login.vue"
+//Demo
+import DemoAxiosPage from "../components/Demo/DemoAxios.vue"
+
 //Lab1
 import Bai1Page from "../components/Lab1/bai1.vue"
 import NavBarPage from "../components/Lab1/bai2.vue"
@@ -43,11 +48,13 @@ import Lab6Bai3Page from "../components/Lab6/Bai3.vue"
 import Lab6Bai4Page from "../components/Lab6/Bai4.vue"
 
 //Lab7
-// import Lab7Bai1Page from "../components/Lab7Bai1.vue"
-// import Lab7Bai2Page from "../components/Lab7/Bai2.vue"
-// import Lab7Bai3Page from "../components/Lab7/Bai3.vue"
-// import Lab7Bai4Page from "../components/Lab7/Bai4.vue"
+import Lab7Bai1Page from "../components/Lab7/Bai1.vue"
+import Lab7Bai2Page from "../components/Lab7/Bai2.vue"
+import Lab7Bai3Page from "../components/Lab7/Bai3.vue"
+import Lab7Bai4Page from "../components/Lab7/Bai4.vue"
 
+import Lab7Bai41Page from "../components/Lab7/LoginComponent.vue"
+import Lab7Bai42Page from "../components/Lab7/CommentComponent.vue"
 //Lab8
 // import Lab8Bai1Page from "../components/Lab8/Bai1.vue"
 // import Lab8Bai2Page from "../components/Lab8/Bai2.vue"
@@ -71,6 +78,7 @@ import HomePage from "../components/Asm/index.vue"
  import QuanSu1 from "../components/Asm/WebChinh/QuanSu.vue"
  import QuanSu2 from "../components/Asm/WebChinh/QuanSu2.vue"
  
+ import CommentPage from "../components/Asm/WebChinh/App.vue"
 
 
 
@@ -84,6 +92,13 @@ import HomePage from "../components/Asm/index.vue"
 
 
 const routes = [
+
+    { path: '/asm/Start', component: StartPage},
+    { path: '/asm/Login', component: LoginPage},
+
+    //Demo
+    { path: '/Demo/DemoAxios', component: DemoAxiosPage},
+
     //Lab1 
 
     { path: '/Lab1/bai1', component: Bai1Page},
@@ -124,10 +139,13 @@ const routes = [
     {path: '/Lab6/bai4', component: Lab6Bai4Page},
 
     //Lab7
-    // {path: '/Lab7/bai1', component: Lab7Bai1Page},
-    // {path: '/Lab7/bai2', component: Lab7Bai2Page},
-    // {path: '/Lab7/bai3', component: Lab7Bai3Page},
-    // {path: '/Lab7/bai4', component: Lab7Bai4Page},
+    {path: '/Lab7/bai1', component: Lab7Bai1Page},
+    {path: '/Lab7/bai2', component: Lab7Bai2Page},
+    {path: '/Lab7/bai3', component: Lab7Bai3Page},
+    {path: '/Lab7/bai4', component: Lab7Bai4Page},
+
+    {path: '/Lab7/LoginComponent', component: Lab7Bai41Page},
+    {path: '/Lab7/CommentComponent', component: Lab7Bai42Page},
 
     //Lab8
     // {path: '/Lab8/bai1', component: Lab8Bai1Page},
@@ -149,6 +167,8 @@ const routes = [
     { path: '/Asm/WebChinh/CleanEating', component: CleanEating  },
     { path: '/Asm/WebChinh/QuanSu', component: QuanSu1  },
     { path: '/Asm/WebChinh/QuanSu2', component: QuanSu2  },
+
+    {path: '/Asm/WebChinh/App', component: CommentPage},
     
 
 

@@ -18,6 +18,23 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Demo
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/demo/DemoAxios">AxiosDemo</a></li>
+              </ul>
+            </li>
+
+            
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
@@ -141,6 +158,7 @@
               </ul>
             </li>
 
+
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
@@ -149,20 +167,56 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
+                Lab 7
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/lab7/Bai1">Bai 1</a></li>
+                <li><a class="dropdown-item" href="/lab7/Bai2">Bai 2</a></li>
+                <li><a class="dropdown-item" href="/lab7/Bai3">Bai 3</a></li>
+                <li><a class="dropdown-item" href="/lab7/Bai4">Bai 4</a></li>
+              </ul>
+            </li>
 
-              
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Lab 8
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/lab8/Bai1">Bai 1</a></li>
+                <li><a class="dropdown-item" href="/lab8/Bai2">Bai 2</a></li>
+                <li><a class="dropdown-item" href="/lab8/Bai3">Bai 3</a></li>
+                <li><a class="dropdown-item" href="/lab8/Bai4">Bai 4</a></li>
+              </ul>
+            </li>
+            
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
                 asm
               </a>
               <ul class="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href="/asm/index">trang chủ</a>
-                  <a class="dropdown-item" href="/asm/TaiKhoan/dangnhap">đăng nhập</a>
+                  <a class="dropdown-item" href="/asm/Start">trang chủ</a>
+                  <!-- <a class="dropdown-item" href="/asm/TaiKhoan/dangnhap">đăng nhập</a>
                   <a class="dropdown-item" href="/asm/TaiKhoan/Dangky">đăng ký</a>
                   <a class="dropdown-item" href="/asm/TaiKhoan/Quenmk">QuenMK</a>
                   <a class="dropdown-item" href="/asm/TrangChiTiet">trang chi tiết</a>
                   <a class="dropdown-item" href="/asm/Baiviet">Bài viết</a>
                   <a class="dropdown-item" href="/asm/GioiThieu">Giới thiệu bản thân</a>
-                  <a class="dropdown-item" href="/asm/LienHe">Liên hệ</a>
+                  <a class="dropdown-item" href="/asm/LienHe">Liên hệ</a> -->
               </li>
             </ul>
           </li>

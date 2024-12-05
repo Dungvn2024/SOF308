@@ -41,5 +41,31 @@
   .highlighted {
     border: 2px solid lightgray;
   }
+
+  
+p {
+  direction: ltr;
+  text-align: left;
+}
+.info-display {
+  line-height: 1.6;
+}
+
+.form-control {
+  width: auto;
+  flex-grow: 1;
+}
+
+label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.mb-3 {
+  display: flex;
+  align-items: center; /* Canh giữa theo trục dọc */
+  justify-content: flex-start; /* Căn từ trái sang */
+  margin-bottom: 1rem;
+}
   </style>
   
